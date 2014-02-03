@@ -21,58 +21,11 @@
 <div class="off-canvas-wrap">
   <div class="inner-wrap">
     <nav class="tab-bar">
-      <section class="left-small">
-        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-      </section>
 
       <section class="middle tab-bar-section">
         <h1 class="title">DVR Remote</h1>
       </section>
 
-
-    <div class="row">
-      <section class="right-small">
-        <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
-      </section>
-    </nav>
-
-    <aside class="left-off-canvas-menu">
-      <ul class="off-canvas-list">
-        <li><label>Menu</label></li>
-        <dl class="tabs vertical" data-tab>
-  <dd class="active"><a href="#panel1a">Controls</a></dd>
-  <dd><a href="#panel2a">Guide</a></dd>
-  <dd><a href="#panel3a">Settings</a></dd>
-  <dd><a href="#panel4a">Help</a></dd>
-</dl>
-<div class="tabs-content vertical">
-  <div class="content active" id="panel1a">
-    <p>Panel 1 content goes here.</p>
-  </div>
-  <div class="content" id="panel2a">
-    <p>Panel 2 content goes here.</p>
-  </div>
-  <div class="content" id="panel3a">
-    <p>Panel 3 content goes here.</p>
-  </div>
-  <div class="content" id="panel4a">
-    <p>Panel 4 content goes here.</p>
-  </div>
-</div>
-
-      </ul>
-    </aside>
-
-    <aside class="right-off-canvas-menu">
-      <ul class="off-canvas-list">
-        <li><label>Users</label></li>
-        <li><a href="#">John Smith</a></li>
-        <li><a href="#">Jane Smith</a></li>
-        <li><a href="#">Sally Smith</a></li>
-        <li><a href="#">Katie Smith</a></li>
-        <li><a href="#">Jake Smith</a></li>
-      </ul>
-    </aside>
 
     <section class="main-section">
       <!-- content goes here -->
@@ -91,7 +44,7 @@
 <ul class="breadcrumbs">
   <li><a href="#">Home</a></li>
   <li class="unavailable"><a href="#">Controls</a></li>
-  <li class="unavailable"><a href="#">Channels</a></li>
+  <li class="unavailable"><a href="#">Users</a></li>
   <li class="unavailable"><a href="#">Favorites</a></li>
   <li class="unavailable"><a href="#">Settings</a></li>
 </ul>
@@ -104,36 +57,46 @@
   <dd>
     <a href="#panel1">Controls</a>
     <div id="panel1" class="content active">
-      <dl class="tabs" data-tab>
-        <dd class="active"><a href="#panel2-1">Tab 1</a></dd>
-        <dd><a href="#panel2-2">Tab 2</a></dd>
-        <dd><a href="#panel2-3">Tab 3</a></dd>
-        <dd><a href="#panel2-4">Tab 4</a></dd>
-      </dl>
-      <div class="tabs-content">
-        <div class="content active" id="panel2-1">
-          <p>First panel content goes here...</p>
-        </div>
-        <div class="content" id="panel2-2">
-          <p>Second panel content goes here...</p>
-        </div>
-        <div class="content" id="panel2-3">
-          <p>Third panel content goes here...</p>
-        </div>
-        <div class="content" id="panel2-4">
-          <p>Fourth panel content goes here...</p>
-        </div>
+    
+        <div class="row">
+      
+      <!-- VOL -->
+      <div class="small-6 columns">
+          
+          <div class="button-bar">
+            <ul class="button-group round">
+              <li><a href="#" class="tiny button secondary">VOL +</a></li>
+              <li><a href="#" class="tiny button secondary">VOL -</a></li>
+            </ul>
+          </div>
+ 
       </div>
+ 
+    
+       
+      <!-- CHAN -->
+      <div class="small-6 columns">
+          <div class="button-bar">
+            <ul class="button-group round">
+              <li><a href="#" class="tiny button secondary">CHAN +</a></li>
+              <li><a href="#" class="tiny button secondary">CHAN -</a></li>
+            </ul>
+          </div>
+      </div>
+ 
     </div>
-  </dd>
+    
+
+      <a href="#" class="button radius round">PLAY</a>
+      <a href="#" class="button radius round">PAUSE</a>
+      <a href="#" class="button radius round">STOP</a>
+      <a href="#" class="button radius round">RECORD</a>
+      <a href="#" class="button radius round">FORWARD</a>
+      <a href="#" class="button radius round">BACKWARD</a>
+
 
   
-   <dd>
-    <a href="#panel2">Channels</a>
-    <div id="panel2" class="content">
-      Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </div>
-  </dd>
+   
  
   <dd>  
     <a href="#panel3">Users</a>
@@ -171,6 +134,27 @@
 </dl>
   
 </dl>
+ 
+ <ul class="example-orbit" data-orbit>
+  <li>
+    <img src="img/newgirl.jpg" alt="slide 1"/>
+    <div class="orbit-caption">
+      New Girl
+    </div>
+  </li>
+  <li>
+    <img src="img/walkingdead.jpg" alt="slide 2" />
+    <div class="orbit-caption">
+      Walking Dead
+    </div>
+  </li>
+  <li>
+    <img src="img/dexter.jpg" alt="slide 3" />
+    <div class="orbit-caption">
+      Dexter
+    </div>
+  </li>
+</ul>
  
  
 
