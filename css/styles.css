@@ -9,4 +9,20 @@
 li{
 	height:100%;
 	width: auto;
+	text-decoration: none;
 }
+
+.content{
+	height: 100%;
+	width: auto;
+}
+
+.orbit-caption{
+	 bottom: 0px;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    top: 100px;
+}
+
+   

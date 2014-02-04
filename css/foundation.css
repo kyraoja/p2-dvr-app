@@ -2263,6 +2263,7 @@ div.switch {
   width: 100%;
   position: relative;
   background: none; }
+  
   .orbit-container .orbit-slides-container {
     list-style: none;
     margin: 0;
@@ -2280,12 +2281,20 @@ div.switch {
         margin-left: 0%; }
       .orbit-container .orbit-slides-container > * .orbit-caption {
         position: absolute;
-        bottom: 0;
+        bottom: 100px;
         background-color: rgba(51, 51, 51, 0.8);
         color: white;
         width: 100%;
         padding: 0.625rem 0.875rem;
-        font-size: 0.875rem; }
+        font-size: 0.875rem; 
+
+	 bottom: 0px;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    top: 100px;
+}
+
   .orbit-container .orbit-slide-number {
     position: absolute;
     top: 10px;
@@ -2407,7 +2416,6 @@ div.switch {
   display: none; }
 .touch .orbit-bullets {
   display: none; }
-
 @media only screen and (min-width: 40.063em) {
   .touch .orbit-container .orbit-prev,
   .touch .orbit-container .orbit-next {
