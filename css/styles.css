@@ -27,16 +27,53 @@ li{
 
 table,
 tr{
-	width: 100%
+	width: 100%;
 }
 
 table{
 	text-align: center;
 }
    
-.tiny, 
-button, 
-secondary, 
-button-together{
-	width: 55px;
-}   
+button.tiny, .button.tiny {
+padding-top: 0.425rem;
+padding-right: 1.25rem;
+padding-bottom: 0.6875rem;
+padding-left: 1.25rem;
+font-size: 0.6875rem; 
+}
+
+td {
+	background: white;
+}
+
+.button-bar-1{
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 75px;
+}
+
+.button-bar-2{
+	width: 200px;
+	margin-left: 60px;
+}
+
+.button-bar{
+	margin-left: 35px;	
+}
+
+.play{
+	width: 90px;
+}
+
+.stop{
+	width: 105px;
+}
+
+.back{
+	width: 103px;
+}
+
+.power{
+	margin-left: 90px;
+	margin-top: 20px;
+}
